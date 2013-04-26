@@ -75,6 +75,7 @@ public class DisplayKey extends Activity {
 		for (int i = 0; i < myKey.scale.length; i++){
 			text.append(scale[i] + " ");
 		}
+		text.append(myKey.tonic);
 		
 	}
 

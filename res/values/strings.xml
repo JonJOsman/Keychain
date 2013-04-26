@@ -18,6 +18,11 @@
     <string-array name="mode_array">
         <item>Major</item>
         <item>Minor</item>
+        <item >Dorian</item>
+        <item >Phrygian</item>
+        <item >Lydian</item>
+        <item >Mixolydian</item>
+        <item >Locrian</item>
     </string-array>
 
     <string name="submit">Submit</string>

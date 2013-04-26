@@ -1,5 +1,5 @@
 package com.osman.mymusickeychain;
 
 public enum Mode {
-	MAJOR, MINOR
+	MAJOR, MINOR, DORIAN, PHRYGIAN, LYDIAN, MIXOLYDIAN, LOCRIAN
 }
