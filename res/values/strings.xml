@@ -1,34 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MyMusicKeychain</string>
+    <string name="app_name">My Music Keychain</string>
     <string name="action_settings">Settings</string>
     <string name="choose_key">Choose a key</string>
     <string name="choose_mode">Choose a mode</string>
 
     <string-array name="key_array">
         <item>C</item>
+        <item>C#</item>
         <item>D</item>
+        <item>D#</item>
         <item>E</item>
         <item>F</item>
+        <item>F#</item>
         <item>G</item>
+        <item>G#</item>
         <item>A</item>
+        <item>A#</item>
         <item>B</item>
     </string-array>
     <string-array name="mode_array">
         <item>Major</item>
         <item>Minor</item>
-        <item >Dorian</item>
-        <item >Phrygian</item>
-        <item >Lydian</item>
-        <item >Mixolydian</item>
-        <item >Locrian</item>
+        <item>Dorian</item>
+        <item>Phrygian</item>
+        <item>Lydian</item>
+        <item>Mixolydian</item>
+        <item>Locrian</item>
     </string-array>
 
     <string name="submit">Submit</string>
-    <string name="title_activity_display_key">DisplayKey</string>
+    <string name="title_activity_display_key"></string>
+    <string name="key_name"></string>
+    <string name="key_scale" />
+    <string name="qualities" />
+    <string name="title_activity_grid_test">GridTest</string>
     <string name="hello_world">Hello world!</string>
-    <string name="key_name">The Key of </string>
-    <string name="key_scale"/>
+    <string name="show_chords">Show chords</string>
 
 </resources>

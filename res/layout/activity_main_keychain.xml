@@ -7,27 +7,34 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainKeychainActivity" 
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_gravity="left">
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select a key" />
-    
-    <Spinner
-        android:id="@+id/key_spinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:entries="@array/key_array"
-        android:prompt="@string/choose_key"
+        android:text="@string/choose_key"
+        android:textSize="20sp"
         />
+    
 
+	    <Spinner
+	        android:id="@+id/key_spinner"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:entries="@array/key_array"
+	        android:prompt="@string/choose_key"
+	        />
+
+        
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select a mode" />
+        android:text="@string/choose_mode" 
+        android:textSize="20sp"
+        />
     
     <Spinner
         android:id="@+id/mode_spinner"
@@ -35,6 +42,7 @@
         android:layout_height="wrap_content"
         android:entries="@array/mode_array"
         android:prompt="@string/choose_mode"
+        android:textSize="20sp" 
         />
     
     <Button
@@ -42,6 +50,9 @@
         android:layout_height="wrap_content"
         android:text="@string/submit"
         android:onClick="displayKey"
+        android:textSize="20sp"
+        android:padding="10dip"
+        android:layout_marginTop="10dip"
         />
         
 
